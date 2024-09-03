@@ -28,6 +28,8 @@ const io = socketIo(server,{
         origin: '*', // Allow all origins, or specify allowed domains
         methods: ['GET', 'POST']
     },
+    pingInterval: 25000, // Adjust as needed (default is 25000 ms)
+    pingTimeout: 60000,  // Adjust as needed (default is 60000 ms)
 });
 
 app.set('io', io); // Make io accessible via the app
