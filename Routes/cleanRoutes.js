@@ -1,5 +1,5 @@
 const express = require("express");
-const { getCleanServices, getCleanSubCategories } = require('../Contorllers/cleanEaseController');
+const { getCleanServices, getCleanSubCategories } = require('../Contorllers/cleanController');
 
 const router = express.Router();
 
