@@ -14,46 +14,6 @@ This repository contains the backend of a functional booking platform for a clea
 - **Mongoose : ODM (Object Data Modeling) library for MongoDB, facilitating data interaction.
 - **Socket-io : For Real time Notification generation about booking status from Admin to User.
 
-## 📂 Folder Structure
-```
-/src
-|-- controllers
-|   |-- authController
-|   |-- UserController
-|   |-- BookingController
-|   |-- NotificationController
-|   |-- razorPayController
-|   |-- UserCheckListController
-|   |-- cleanController
-|   |-- AdminController
-|-- DB
-|   |-- ConnectMongoDB
-|-- MiddleWare
-|   |-- Admin
-|   |-- auth
-|-- Models
-|   |-- CleanServices
-|   |-- CleanSubCategories
-|   |-- Notification
-|   |-- User
-|   |-- UserBookings
-|   |-- UserChecklist
-|-- Routes
-|   |-- adminRoutes
-|   |-- authRoutes
-|   |-- bookingRoutes
-|   |-- cleanRoutes
-|   |-- notificationRoutes
-|   |-- razorPayRoutes
-|   |-- userRoutes
-|   |-- userCheckListRoutes
-|-- Utils
-|   |-- EmailServices
-|-- server.js
-|-- package
-|-- package-lock
-```
-
 ## 🧪 How to Run the BackEnd
 **Install Dependencies** 📦
    ```bash
