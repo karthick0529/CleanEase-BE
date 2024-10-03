@@ -16,5 +16,5 @@ const userCheckListSchema = new mongoose.Schema({
     }
 })
 
-const UserCheckList = mongoose.model("UserCheckList",userCheckListSchema)
+const UserCheckList = mongoose.model("UserCheckList",userCheckListSchema);
 module.exports = UserCheckList;
