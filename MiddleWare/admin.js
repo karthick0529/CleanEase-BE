@@ -8,7 +8,7 @@ module.exports = function(req,res,next) {
     }
     try{
         const verifyToken = token.split(" ")[1];
-        const user = jwt.verify(verifyToken,process.env.JWTSECRET)
+        const user = jwt.verify(verifyToken,process.env.JWTSECRET);
         if(user.role != "Admin"){
             return res.status(400).send("Not Admin.. Not Authorized.")
         }
